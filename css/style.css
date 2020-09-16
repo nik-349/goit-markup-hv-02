@@ -153,8 +153,6 @@
   color: #212121;
 }
 
-.staff-people {
-}
 .staff {
   font-weight: bold;
   font-size: 36px;
@@ -178,4 +176,8 @@
   line-height: 1.187px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.staff-people {
+  background-color: #f5f4fa;
 }
