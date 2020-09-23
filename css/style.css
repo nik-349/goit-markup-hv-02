@@ -21,6 +21,18 @@
   color: #000000;
 }
 
+.color-logo-first,
+.color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+/*Heder color and*/
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -34,7 +46,9 @@
 .navigation-list-link:focus {
   color: #2196f3;
 }
-
+.current {
+  color: #2196f3;
+}
 .heder-tel-link,
 .heder-mail-link {
   font-weight: 500;
@@ -70,6 +84,7 @@
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -150,8 +165,10 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: none;
   color: #ffffff;
   background: #188ce8;
+  border-radius: 4px;
 }
 
 .button-index:hover,
@@ -216,10 +233,21 @@
 .staff-people {
   background-color: #f5f4fa;
 }
+/*Color logo futter*/
 
 .footer-color-logo-first {
   color: #2196f3;
 }
 .footer-color-logo-second {
   color: #ffffff;
+}
+
+.footer-color-logo-first,
+.footer-color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
